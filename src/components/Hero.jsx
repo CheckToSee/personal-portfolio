@@ -1,0 +1,36 @@
+import React from 'react'
+import Bg from "../assets/herobg.jpg"
+import { BsFillArrowRightSquareFill } from 'react-icons/bs'
+import { AiFillLinkedin, AiFillGithub, AiFillTwitterSquare } from 'react-icons/ai'
+
+/*TODO: Add animate-bounce for a scroll indicator (bottom middle)
+ * Add animated spaceman as image on the right 
+ * Add side icons to the menu on md: screen
+ * */
+
+const Hero = () => {
+  return (
+    <div className="w-full h-screen mt-[-80px] bg-[url('https://wallpapers.com/images/hd/animated-space-1920-x-1229-background-unxl4ghmwz0vk0dh.jpg')] bg-cover">
+      <div className='pt-20 w-full h-full flex flex-row'>
+        <div className='flex flex-[1] flex-col items-start justify-center pl-8'>
+          <AiFillLinkedin className='rounded-lg mb-6 cursor-pointer' size={30} />
+          <AiFillGithub className='rounded-lg mb-6 cursor-pointer' size={30} />
+          <AiFillTwitterSquare className='rounded-lg cursor-pointer' size={30} />
+        </div>
+        <div className='h-full flex flex-[7] items-center p-10'>
+          <div className='w-full'>
+            <h1 className='text-7xl font-extrabold mb-4'>Hi! I'm Cheikh Dime</h1>
+            <p className='font-semibold text-2xl text-[#9c9c9c] mr-12 mb-8'>A Frontend focused Web Developer with knowledge and experience of Frontend, Backend, Cybersecurity, and more.</p>
+            <div className='flex flex-row items-center hover:scale-x-105 hover:ml-5'>
+              <button className='text-3xl font-semibold mr-4 pt-3 text-[#0A0D38]'>Let's Connect </button>
+              <BsFillArrowRightSquareFill size={28} className='text-[#0A0D38] mt-3' />
+            </div>
+          </div>
+        </div>
+        <div className='flex flex-[7] h-full'></div>
+      </div>
+    </div>
+  )
+}
+
+export default Hero
