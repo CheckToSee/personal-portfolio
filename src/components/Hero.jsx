@@ -22,8 +22,8 @@ const Hero = () => {
         </div>
         <div className='h-full flex flex-[7] items-center p-10'>
           <div className='w-full'>
-            <h1 className='text-7xl font-extrabold mb-4'>Hi! I'm Cheikh Dime</h1>
-            <p className='font-semibold text-2xl text-[#9c9c9c] mr-12 mb-8'>A Frontend focused Web Developer with knowledge and experience of Frontend, Backend, Cybersecurity, and more.</p>
+            <h1 className='sm:text-7xl text-5xl font-extrabold mb-4'>Hi! I'm Cheikh Dime</h1>
+            <p className='font-semibold sm:text-2xl text-lg text-[#9c9c9c] mr-12 mb-8'>A Frontend focused Web Developer with knowledge and experience of Frontend, Backend, Cybersecurity, and more.</p>
             <div className='flex flex-row items-center hover:scale-x-105 hover:ml-5'>
               <button className='text-3xl font-semibold mr-4 pt-3 text-[#0A0D38]'>Let's Connect </button>
               <BsFillArrowRightSquareFill size={28} className='text-[#0A0D38] mt-3' />
@@ -31,7 +31,7 @@ const Hero = () => {
           </div>
         </div>
         <div className='flex flex-[7] h-full items-center justify-center'>
-          <img src={Astronaut} className='aspect-square hero-image w-min' />
+          <img src={Astronaut} className='aspect-square md:w-[515px] sm:w-[300px] w-[250px] sm:mb-0 mb-10 hero-image' />
         </div>
       </div>
       <div className='absolute bottom-0 w-full h-20 flex items-center justify-center animate-bounce'>
