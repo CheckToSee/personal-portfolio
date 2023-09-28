@@ -26,7 +26,7 @@ const Navbar = () => {
   })
 
   return (
-    <div className={scrolled ? `text-white w-full h-20 flex items-center justify-between bg-gray-800 sticky top-0 duration-300` : `text-white w-full h-20 flex items-center justify-between bg-transparent sticky top-0 duration-300`}>
+    <div className={scrolled ? `text-white w-full h-20 flex items-center justify-between bg-[#111111] sticky top-0 duration-300 z-10` : `text-white w-full h-20 flex items-center justify-between bg-transparent sticky top-0 duration-300 z-10`}>
       <div className='LOGO ml-12 flex flex-row items-center'>
         <img className='rounded-full h-12 w-12 mr-2' src={Dime} />
         <h1 className='text-2xl font-bold'>CHEIKH DIME</h1>
