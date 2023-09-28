@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import Dime from "../assets/dime.jpg" 
-import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
+import { AiFillLinkedin, AiFillGithub, AiFillTwitterSquare, AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -34,7 +34,7 @@ const Navbar = () => {
       <div className='hidden lg:flex flex-row font-semibold items-center'>
         <ul className='p-5 cursor-pointer hover:text-[#a6a6a6]'>HOME</ul>
         <ul className='p-5 cursor-pointer hover:text-[#a6a6a6]'>ABOUT</ul>
-        <ul className='p-5 cursor-pointer hover:text-[#a6a6a6]'>SKILLS</ul>
+        {/*<ul className='p-5 cursor-pointer hover:text-[#a6a6a6]'>SKILLS</ul>*/}
         <ul className='p-5 cursor-pointer hover:text-[#a6a6a6]'>PROJECTS</ul>
         <button className="relative border bg-transparent border-white px-4 py-3 mr-12 ml-4 text-white transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-white before:transition-transform before:duration-300 before:content-[''] hover:text-black before:hover:scale-x-100 z-0">Let's Connect</button>
       </div>
@@ -52,10 +52,17 @@ const Navbar = () => {
           </div>
           <ul className='p-5 cursor-pointer text-black border-b border-gray-500 mx-4 hover:bg-[#d1d1d1]'>HOME</ul>
           <ul className='p-5 cursor-pointer text-black border-b border-gray-500 mx-4 hover:bg-[#d1d1d1]'>ABOUT</ul>
-          <ul className='p-5 cursor-pointer text-black border-b border-gray-500 mx-4 hover:bg-[#d1d1d1]'>SKILLS</ul>
+          {/*<ul className='p-5 cursor-pointer text-black border-b border-gray-500 mx-4 hover:bg-[#d1d1d1]'>SKILLS</ul>*/}
           <ul className='p-5 cursor-pointer text-black mx-4 hover:bg-[#d1d1d1]'>PROJECTS</ul>
         </div>
-        <button className="relative border bg-transparent border-black px-4 py-3 mx-8 mb-8 text-black transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-black before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 z-0">Let's Connect</button>
+        <div className='flex flex-col justify-between'>
+          <div className='md:hidden flex flex-row mb-8 text-black justify-between mx-8'>
+            <AiFillLinkedin className='rounded-lg cursor-pointer m-4' size={30} />
+            <AiFillGithub className='rounded-lg cursor-pointer m-4' size={30} />
+            <AiFillTwitterSquare className='rounded-lg cursor-pointer m-4' size={30} />
+          </div>
+          <button className="relative border bg-transparent border-black px-4 py-3 mx-8 mb-8 text-black transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-black before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 z-0">Let's Connect</button>
+        </div>
       </div>
     </div>
   )
