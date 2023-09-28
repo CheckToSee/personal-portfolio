@@ -3,17 +3,19 @@ import Astronaut from "../assets/astronaut_cartoon.png"
 import { BsFillArrowRightSquareFill } from 'react-icons/bs'
 import { AiFillLinkedin, AiFillGithub, AiFillTwitterSquare } from 'react-icons/ai'
 import { CgScrollV } from 'react-icons/cg'
+import '../App.css'
 
-/*PERF: Add animate-bounce for a scroll indicator (bottom middle)
- *TODO: Add animated spaceman as image on the right 
- * Add side icons to the menu on md: screen
+/*PERF: 
+ * Add animate-bounce for a scroll indicator (bottom middle)
+ * Add animated spaceman as image on the right 
+ *TODO: Add side icons to the menu on md: screen
  * */
 
 const Hero = () => {
   return (
     <div className="w-full h-screen mt-[-80px] bg-[url('https://wallpapers.com/images/hd/animated-space-1920-x-1229-background-unxl4ghmwz0vk0dh.jpg')] bg-cover flex flex-col">
-      <div className='pt-20 w-full h-full flex flex-row'>
-        <div className='flex flex-[1] flex-col items-start justify-center pl-8'>
+      <div className='pt-20 w-full h-full flex flex-col md:flex-row'>
+        <div className='hidden md:flex flex-[1] flex-col items-start justify-center pl-8'>
           <AiFillLinkedin className='rounded-lg mb-6 cursor-pointer' size={30} />
           <AiFillGithub className='rounded-lg mb-6 cursor-pointer' size={30} />
           <AiFillTwitterSquare className='rounded-lg cursor-pointer' size={30} />
@@ -29,7 +31,7 @@ const Hero = () => {
           </div>
         </div>
         <div className='flex flex-[7] h-full items-center justify-center'>
-          <img src={Astronaut} className='aspect-square' />
+          <img src={Astronaut} className='aspect-square hero-image w-min' />
         </div>
       </div>
       <div className='absolute bottom-0 w-full h-20 flex items-center justify-center animate-bounce'>
