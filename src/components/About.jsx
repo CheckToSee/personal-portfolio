@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div className="w-full min-h-screen bg-[#1A191D] flex items-center justify-center">
       <div className="w-full max-w-[1400px] h-full mx-16 my-8 flex flex-col">
-        <div className="flex flex-col justify-center mb-10 items-center">
+        <div className="flex flex-col justify-center mb-6 items-center">
           <h1 className="w-full md:text-5xl text-3xl text-white text-center font-extrabold py-3">
             About Me
           </h1>
@@ -19,7 +19,7 @@ const About = () => {
           </h2>
         </div>
         <div className="w-full h-full flex flex-col lg:flex-row">
-          <div className="w-full h-full flex flex-col mr-8">
+          <div className="w-full h-full flex flex-col mr-4">
             <h2 className="text-white md:text-3xl text-2xl font-bold py-3">Who am I?</h2>
             <p className="md:text-lg pr-4 my-2 text-[#bababa]">
               I'm a
@@ -74,7 +74,7 @@ const About = () => {
               </button>
             </div>
           </div>
-          <div className="w-full h-full lg:ml-20 flex flex-col lg:mt-0 mt-6">
+          <div className="w-full h-full lg:ml-20 flex flex-col lg:mt-0 mt-6 lg:pl-20">
             <h2 className="text-white md:text-3xl text-2xl font-bold py-3">Skills</h2>
             <div className="w-full flex flex-col">
               <div className='flex flex-row mb-4'>
