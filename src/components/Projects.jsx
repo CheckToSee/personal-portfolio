@@ -24,92 +24,93 @@ const Projects = () => {
             </div>
           </div>
           <div className='w-full h-full flex flex-col mt-6'>
-            <div className='w-full h-full flex items-center justify-center'>
+            <div className='w-full h-full flex items-center justify-center mb-8'>
+              <div className='grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 place-items-center'>
 
-              {/*NOTE: FIRST CARD*/}
-              <div className='w-80 h-80 mr-8 bg-white aspect-square border border-gray-700 relative overflow-hidden group'>
-                <img src={Metaversus} className='w-full h-full object-cover' />
-                <div className='bg-[#1f3d4738] w-full h-full absolute top-0 right-[-100%] group-hover:right-0 duration-300 backdrop-blur flex flex-col'>
-                  <div className='w-full h-full flex justify-center items-center flex-col'>
-                    <h3 className='text-2xl font-bold text-white'>Metaversus</h3>
-                    <p className='text-lg text-white'>Frontend using NextJS + React</p>
-                  </div>
-                  <div className='flex items-center justify-center'>
-                    <button className='mb-6 py-2 px-5 bg-[#9B37FF] font-extrabold rounded-lg border border-white hover:bg-[#5327c4]'>Visit Github</button>
+                {/*NOTE: FIRST CARD*/}
+                <div className='xl:w-80 xl:h-80 md:h-72 md:w-72 h-64 w-64 bg-white aspect-square border border-gray-700 relative overflow-hidden group m-4'>
+                  <img src={Metaversus} className='w-full h-full object-cover' />
+                  <div className='bg-[#1f3d4738] w-full h-full absolute top-0 right-[-100%] group-hover:right-0 duration-300 backdrop-blur flex flex-col'>
+                    <div className='w-full h-full flex justify-center items-center flex-col'>
+                      <h3 className='text-2xl font-bold text-white'>Metaversus</h3>
+                      <p className='text-lg text-white'>Frontend using NextJS + React</p>
+                    </div>
+                    <div className='flex items-center justify-center'>
+                      <button className='mb-6 py-2 px-5 bg-[#9B37FF] font-extrabold rounded-lg border border-white hover:bg-[#5327c4]'>Visit Github</button>
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              {/*NOTE: SECOND CARD*/}
-              <div className='w-80 h-80 mr-8 bg-white aspect-square border border-gray-700 relative overflow-hidden group'>
-                <img src={Wordle} className='w-full h-full object-cover' />
-                <div className='bg-[#1f3d4738] w-full h-full absolute top-0 right-[-100%] group-hover:right-0 duration-300 backdrop-blur flex flex-col'>
-                  <div className='w-full h-full flex justify-center items-center flex-col'>
-                    <h3 className='text-2xl font-bold text-white'>Wordle Clone</h3>
-                    <p className='text-lg text-white'>Frontend using NextJS + React</p>
-                  </div>
-                  <div className='flex items-center justify-center'>
-                    <button className='mb-6 py-2 px-5 bg-[#9B37FF] font-extrabold rounded-lg border border-white hover:bg-[#5327c4]'>Visit Github</button>
+                {/*NOTE: SECOND CARD*/}
+                <div className='xl:w-80 xl:h-80 md:h-72 md:w-72 h-64 w-64 bg-white aspect-square border border-gray-700 relative overflow-hidden group m-4'>
+                  <img src={Wordle} className='w-full h-full object-cover' />
+                  <div className='bg-[#1f3d4738] w-full h-full absolute top-0 right-[-100%] group-hover:right-0 duration-300 backdrop-blur flex flex-col'>
+                    <div className='w-full h-full flex justify-center items-center flex-col'>
+                      <h3 className='text-2xl font-bold text-white'>Wordle Clone</h3>
+                      <p className='text-lg text-white'>Frontend using NextJS + React</p>
+                    </div>
+                    <div className='flex items-center justify-center'>
+                      <button className='mb-6 py-2 px-5 bg-[#9B37FF] font-extrabold rounded-lg border border-white hover:bg-[#5327c4]'>Visit Github</button>
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              {/*NOTE: THIRD CARD*/}
-              <div className='w-80 h-80 bg-white aspect-square border border-gray-700 relative overflow-hidden group'>
-                <img src={InstantRX} className='w-full h-full object-cover' />
-                <div className='bg-[#1f3d4738] w-full h-full absolute top-0 right-[-100%] group-hover:right-0 duration-300 backdrop-blur flex flex-col'>
-                  <div className='w-full h-full flex justify-center items-center flex-col'>
-                    <h3 className='text-2xl font-bold text-white'>Online Healthcare Clone</h3>
-                    <p className='text-lg text-white'>Frontend using NextJS + React</p>
-                  </div>
-                  <div className='flex items-center justify-center'>
-                    <button className='mb-6 py-2 px-5 bg-[#9B37FF] font-extrabold rounded-lg border border-white hover:bg-[#5327c4]'>Visit Github</button>
+                {/*NOTE: THIRD CARD*/}
+                <div className='xl:w-80 xl:h-80 md:h-72 md:w-72 h-64 w-64 bg-white aspect-square border border-gray-700 relative overflow-hidden group m-4'>
+                  <img src={InstantRX} className='w-full h-full object-cover' />
+                  <div className='bg-[#1f3d4738] w-full h-full absolute top-0 right-[-100%] group-hover:right-0 duration-300 backdrop-blur flex flex-col'>
+                    <div className='w-full h-full flex justify-center items-center flex-col'>
+                      <h3 className='text-2xl font-bold text-white'>Online Healthcare Clone</h3>
+                      <p className='text-lg text-white'>Frontend using NextJS + React</p>
+                    </div>
+                    <div className='flex items-center justify-center'>
+                      <button className='mb-6 py-2 px-5 bg-[#9B37FF] font-extrabold rounded-lg border border-white hover:bg-[#5327c4]'>Visit Github</button>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div className='w-full h-full flex items-center justify-center mt-8'>
 
-              {/*NOTE: FOURTH CARD*/}
-              <div className='w-80 h-80 bg-white aspect-square border border-gray-700 relative overflow-hidden group mr-8'>
-                <img src={Portfolio} className='w-full h-full' />
-                <div className='bg-[#1f3d4738] w-full h-full absolute top-0 right-[-100%] group-hover:right-0 duration-300 backdrop-blur flex flex-col'>
-                  <div className='w-full h-full flex justify-center items-center flex-col'>
-                    <h3 className='text-2xl font-bold text-white'>My Personal Website</h3>
-                    <p className='text-lg text-white'>ReactJS + Vite</p>
-                  </div>
-                  <div className='flex items-center justify-center'>
-                    <button className='mb-6 py-2 px-5 bg-[#9B37FF] font-extrabold rounded-lg border border-white hover:bg-[#5327c4]'>Visit Github</button>
+                {/*NOTE: FOURTH CARD*/}
+                <div className='xl:w-80 xl:h-80 md:h-72 md:w-72 h-64 w-64 bg-white aspect-square border border-gray-700 relative overflow-hidden group m-4'>
+                  <img src={Portfolio} className='w-full h-full' />
+                  <div className='bg-[#1f3d4738] w-full h-full absolute top-0 right-[-100%] group-hover:right-0 duration-300 backdrop-blur flex flex-col'>
+                    <div className='w-full h-full flex justify-center items-center flex-col'>
+                      <h3 className='text-2xl font-bold text-white'>My Personal Website</h3>
+                      <p className='text-lg text-white'>ReactJS + Vite</p>
+                    </div>
+                    <div className='flex items-center justify-center'>
+                      <button className='mb-6 py-2 px-5 bg-[#9B37FF] font-extrabold rounded-lg border border-white hover:bg-[#5327c4]'>Visit Github</button>
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              {/*NOTE: FIFTH CARD*/}
-              <div className='w-80 h-80 bg-white aspect-square border border-gray-700 relative overflow-hidden group mr-8'>
-                <img src={Ebay} className='w-full h-full object-cover' />
-                <div className='bg-[#1f3d4738] w-full h-full absolute top-0 right-[-100%] group-hover:right-0 duration-300 backdrop-blur flex flex-col'>
-                  <div className='w-full h-full flex justify-center items-center flex-col'>
-                    <h3 className='text-2xl font-bold text-white'>Ebay Price Tracker</h3>
-                    <p className='text-lg text-white'>Python Scripting with BS4</p>
-                  </div>
-                  <div className='flex items-center justify-center'>
-                    <button className='mb-6 py-2 px-5 bg-[#9B37FF] font-extrabold rounded-lg border border-white hover:bg-[#5327c4]'>Visit Github</button>
+                {/*NOTE: FIFTH CARD*/}
+                <div className='xl:w-80 xl:h-80 md:h-72 md:w-72 h-64 w-64 bg-white aspect-square border border-gray-700 relative overflow-hidden group m-4'>
+                  <img src={Ebay} className='w-full h-full object-cover' />
+                  <div className='bg-[#1f3d4738] w-full h-full absolute top-0 right-[-100%] group-hover:right-0 duration-300 backdrop-blur flex flex-col'>
+                    <div className='w-full h-full flex justify-center items-center flex-col'>
+                      <h3 className='text-2xl font-bold text-white'>Ebay Price Tracker</h3>
+                      <p className='text-lg text-white'>Python Scripting with BS4</p>
+                    </div>
+                    <div className='flex items-center justify-center'>
+                      <button className='mb-6 py-2 px-5 bg-[#9B37FF] font-extrabold rounded-lg border border-white hover:bg-[#5327c4]'>Visit Github</button>
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              {/*NOTE: SIXTH CARD*/}
-              <div className='w-80 h-80 bg-white aspect-square border border-gray-700 relative overflow-hidden group'>
-                <img src={Nyt} className='w-full h-full object-cover' />
-                <div className='bg-[#1f3d4738] w-full h-full absolute top-0 right-[-100%] group-hover:right-0 duration-300 backdrop-blur flex flex-col'>
-                  <div className='w-full h-full flex justify-center items-center flex-col'>
-                    <h3 className='text-2xl font-bold text-white'>NYT Daily Article Tracker</h3>
-                    <p className='text-lg text-white'>Python Scripting with BS4</p>
-                  </div>
-                  <div className='flex items-center justify-center'>
-                    <button className='mb-6 py-2 px-5 bg-[#9B37FF] font-extrabold rounded-lg border border-white hover:bg-[#5327c4]'>Visit Github</button>
+                {/*NOTE: SIXTH CARD*/}
+                <div className='xl:w-80 xl:h-80 md:h-72 md:w-72 h-64 w-64 bg-white aspect-square border border-gray-700 relative overflow-hidden group'>
+                  <img src={Nyt} className='w-full h-full object-cover' />
+                  <div className='bg-[#1f3d4738] w-full h-full absolute top-0 right-[-100%] group-hover:right-0 duration-300 backdrop-blur flex flex-col'>
+                    <div className='w-full h-full flex justify-center items-center flex-col'>
+                      <h3 className='text-2xl font-bold text-white'>NYT Daily Article Tracker</h3>
+                      <p className='text-lg text-white'>Python Scripting with BS4</p>
+                    </div>
+                    <div className='flex items-center justify-center'>
+                      <button className='mb-6 py-2 px-5 bg-[#9B37FF] font-extrabold rounded-lg border border-white hover:bg-[#5327c4]'>Visit Github</button>
+                    </div>
                   </div>
                 </div>
+
               </div>
             </div>
           </div>
