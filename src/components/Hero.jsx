@@ -8,12 +8,12 @@ import '../App.css'
 /*PERF: 
  * Add animate-bounce for a scroll indicator (bottom middle)
  * Add animated spaceman as image on the right 
- *TODO: Add side icons to the menu on md: screen
+ * Add side icons to the menu on md: screen
  * */
 
 const Hero = () => {
   return (
-    <div className="w-full h-screen mt-[-80px] bg-[url('https://wallpapers.com/images/hd/animated-space-1920-x-1229-background-unxl4ghmwz0vk0dh.jpg')] bg-cover flex flex-col">
+    <div id='home' className="w-full h-screen mt-[-80px] bg-[url('https://wallpapers.com/images/hd/animated-space-1920-x-1229-background-unxl4ghmwz0vk0dh.jpg')] bg-cover flex flex-col">
       <div className='pt-20 w-full h-full flex flex-col md:flex-row'>
         <div className='hidden md:flex flex-[1] flex-col items-start justify-center pl-8'>
           <AiFillLinkedin className='rounded-lg mb-6 cursor-pointer' size={30} />

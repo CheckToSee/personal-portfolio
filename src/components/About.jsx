@@ -69,7 +69,7 @@ const About = () => {
               Fun Facts: I live in the terminal, Vim is the only way
             </p>
             <div className="mt-4">
-              <button className="px-14 py-4 bg-[#9B37FF] rounded-lg text-lg font-bold">
+              <button className="px-14 py-4 bg-[#9B37FF] rounded-lg text-lg font-bold hover:bg-[#7529c2]">
                 Contact
               </button>
             </div>
