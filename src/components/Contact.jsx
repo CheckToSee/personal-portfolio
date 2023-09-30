@@ -5,12 +5,12 @@ import Abstract from "../assets/abstract.png";
 
 const Contact = () => {
   return (
-    <div className="w-full min-h-screen lg:h-screen bg-gradient-to-r from-[#982E6F] to-[#43289F] flex lg:flex-row flex-col-reverse">
+    <div id="contact" className="w-full min-h-screen lg:h-screen bg-gradient-to-r from-[#982E6F] to-[#43289F] flex lg:flex-row flex-col-reverse">
       <div className="w-full h-full flex items-center justify-center">
         <img src={Abstract} className="lg:w-full w-1/2" />
       </div>
       <div className="w-full h-full flex flex-col justify-center lg:mx-0">
-        <h1 className="text-6xl font-extrabold mb-6 lg:mx-0 mx-8 lg:mt-0 mt-8 text-center lg:text-start">Get In Touch</h1>
+        <h1 className="sm:text-6xl text-5xl font-extrabold sm:mb-6 mb-10 lg:mx-0 mx-8 lg:mt-0 mt-8 text-center lg:text-start">Get In Touch</h1>
         <form className="lg:ml-0 mx-16">
           <input
             className="w-full rounded-3xl border border-gray-300 text-xl p-4 bg-[rgba(256,256,256,0.18)] text-white h-16 mb-4 placeholder-white"

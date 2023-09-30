@@ -6,7 +6,7 @@ import Badge from '../assets/securitypluslogo.png';
 
 const About = () => {
   return (
-    <div className="w-full min-h-screen bg-[#1A191D] flex items-center justify-center">
+    <div id='about' className="w-full min-h-screen bg-[#1A191D] flex items-center justify-center">
       <div className="w-full max-w-[1400px] h-full mx-16 my-8 flex flex-col">
         <div className="flex flex-col justify-center mb-6 items-center">
           <h1 className="w-full md:text-5xl text-3xl text-white text-center font-extrabold py-3">
@@ -134,6 +134,7 @@ const About = () => {
             </div>
             <h2 className="text-white md:text-3xl text-2xl font-bold py-3 lg:mt-0 mt-6">Certification</h2>
             <img src={Badge} className='sm:w-[114px] w-[90px]' />
+            <div id='projects' className='h-1'></div>
           </div>
         </div>
       </div>

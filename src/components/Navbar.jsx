@@ -32,11 +32,19 @@ const Navbar = () => {
         <h1 className='text-2xl font-bold'>CHEIKH DIME</h1>
       </div>
       <div className='hidden lg:flex flex-row font-semibold items-center'>
-        <button className='p-5 cursor-pointer hover:text-[#a6a6a6]'>HOME</button>
-        <button className='p-5 cursor-pointer hover:text-[#a6a6a6]'>ABOUT</button>
+        <a href='#home'>
+          <button className='p-5 cursor-pointer hover:text-[#a6a6a6]'>HOME</button>
+        </a>
+        <a href='#about'>
+          <button className='p-5 cursor-pointer hover:text-[#a6a6a6]'>ABOUT</button>
+        </a>
         {/*<ul className='p-5 cursor-pointer hover:text-[#a6a6a6]'>SKILLS</ul>*/}
-        <button className='p-5 cursor-pointer hover:text-[#a6a6a6]'>PROJECTS</button>
-        <button className="relative border bg-transparent border-white px-4 py-3 mr-12 ml-4 text-white transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-white before:transition-transform before:duration-300 before:content-[''] hover:text-black before:hover:scale-x-100 z-0">Let's Connect</button>
+        <a href='#projects'>
+          <button className='p-5 cursor-pointer hover:text-[#a6a6a6]'>PROJECTS</button>
+        </a>
+        <a href='#contact'>
+          <button className="relative border bg-transparent border-white px-4 py-3 mr-12 ml-4 text-white transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-white before:transition-transform before:duration-300 before:content-[''] hover:text-black before:hover:scale-x-100 z-0">Let's Connect</button>
+        </a>
       </div>
       <div onClick={handleMenu}className='block lg:hidden'>
         {!menu ? (
