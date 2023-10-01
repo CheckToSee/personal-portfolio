@@ -13,7 +13,7 @@ import '../App.css'
 
 const Hero = () => {
   return (
-    <div id='home' className="w-full h-screen mt-[-80px] bg-[url('https://wallpapers.com/images/hd/animated-space-1920-x-1229-background-unxl4ghmwz0vk0dh.jpg')] bg-cover flex flex-col">
+    <div id='home' className="w-full h-screen mt-[-70px] bg-[url('https://wallpapers.com/images/hd/animated-space-1920-x-1229-background-unxl4ghmwz0vk0dh.jpg')] bg-cover flex flex-col">
       <div className='pt-20 w-full h-full flex flex-col md:flex-row'>
         <div className='hidden md:flex flex-[1] flex-col items-start justify-center pl-8'>
           <a href='https://www.linkedin.com/in/cheikh-dime-151ba3286/'>

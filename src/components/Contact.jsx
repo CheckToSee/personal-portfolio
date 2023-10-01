@@ -21,7 +21,7 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact" className="w-full min-h-screen lg:h-screen bg-gradient-to-r from-[#982E6F] to-[#43289F] flex lg:flex-row flex-col-reverse">
+    <div id="contact" className="w-full min-h-screen lg:h-screen bg-gradient-to-r from-[#982E6F] to-[#43289F] flex lg:flex-row lg:pt-0 pt-16 flex-col-reverse">
       <div className="w-full h-full flex items-center justify-center">
         <img src={Abstract} className="lg:w-full w-1/2" />
       </div>

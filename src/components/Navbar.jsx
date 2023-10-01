@@ -26,7 +26,7 @@ const Navbar = () => {
   })
 
   return (
-    <div className={scrolled ? `text-white w-full h-20 flex items-center justify-between bg-[#111111] sticky top-0 duration-300 z-10` : `text-white w-full h-20 flex items-center justify-between bg-transparent sticky top-0 duration-300 z-10`}>
+    <div className={scrolled ? `text-white w-full h-[70px] flex items-center justify-between bg-[#111111] sticky top-0 duration-300 z-10` : `text-white w-full h-[70px] flex items-center justify-between bg-transparent sticky top-0 duration-300 z-10`}>
       <a href='#home'>
         <div className='LOGO ml-12 flex flex-row items-center cursor-pointer'>
           <img className='rounded-full h-12 w-12 mr-2' src={Dime} />
@@ -61,14 +61,14 @@ const Navbar = () => {
             <AiOutlineClose onClick={handleMenu} className='text-black mt-8 mb-4 mr-8 cursor-pointer' size={30} />
           </div>
           <a href='#home'>
-            <ul className='p-5 cursor-pointer text-black border-b border-gray-500 mx-4 hover:bg-[#d1d1d1]'>HOME</ul>
+            <ul className='p-5 cursor-pointer text-black border-b border-gray-500 mx-4 hover:bg-[#d1d1d1]' onClick={handleMenu}>HOME</ul>
           </a>
           <a href='#about'>
-            <ul className='p-5 cursor-pointer text-black border-b border-gray-500 mx-4 hover:bg-[#d1d1d1]'>ABOUT</ul>
+            <ul className='p-5 cursor-pointer text-black border-b border-gray-500 mx-4 hover:bg-[#d1d1d1]' onClick={handleMenu}>ABOUT</ul>
           </a>
           {/*<ul className='p-5 cursor-pointer text-black border-b border-gray-500 mx-4 hover:bg-[#d1d1d1]'>SKILLS</ul>*/}
           <a href='#projects'>
-            <ul className='p-5 cursor-pointer text-black mx-4 hover:bg-[#d1d1d1]'>PROJECTS</ul>
+            <ul className='p-5 cursor-pointer text-black mx-4 hover:bg-[#d1d1d1]' onClick={handleMenu}>PROJECTS</ul>
           </a>
         </div>
         <div className='flex flex-col justify-between'>
@@ -84,7 +84,7 @@ const Navbar = () => {
             </a>
           </div>
           <a href='#contact' className='flex justify-center'>
-            <button className="relative border w-[80%] bg-transparent border-black px-4 py-3 mb-8 text-black transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-black before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 z-0">Let's Connect</button>
+            <button className="relative border w-[80%] bg-transparent border-black px-4 py-3 mb-8 text-black transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-black before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 z-0" onClick={handleMenu}>Let's Connect</button>
           </a>
         </div>
       </div>
