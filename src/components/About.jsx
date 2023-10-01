@@ -7,7 +7,7 @@ import Badge from '../assets/securitypluslogo.png';
 const About = () => {
   return (
     <div id='about' className="w-full min-h-screen bg-[#1A191D] flex items-center justify-center">
-      <div className="w-full max-w-[1400px] h-full mx-16 my-8 flex flex-col">
+      <div className="w-full max-w-[1400px] h-full mx-16 my-8 flex flex-col mt-16">
         <div className="flex flex-col justify-center mb-6 items-center">
           <h1 className="w-full md:text-5xl text-3xl text-white text-center font-extrabold py-3">
             About Me
