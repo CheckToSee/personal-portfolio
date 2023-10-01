@@ -140,7 +140,7 @@ const Projects = () => {
                       <p className='text-lg text-white'>Python Scripting with BS4</p>
                     </div>
                     <div className='flex items-center justify-center'>
-                      <a href=''>
+                      <a href='https://github.com/CheckToSee/ebay_tracker'>
                         <button className='mb-6 py-2 px-5 bg-transparent hover:bg-[#9B37FF] font-extrabold rounded-lg border-2 border-[#9B37FF] flex flex-row duration-300 items-center justify-center'>
                           Visit Github
                           <IoIosArrowForward size={18} />
@@ -161,7 +161,7 @@ const Projects = () => {
                       <p className='text-lg text-white'>Python Scripting with BS4</p>
                     </div>
                     <div className='flex items-center justify-center'>
-                      <a href=''>
+                      <a href='https://github.com/CheckToSee/nyt_titles'>
                         <button className='mb-6 py-2 px-5 bg-transparent hover:bg-[#9B37FF] font-extrabold rounded-lg border-2 border-[#9B37FF] flex flex-row duration-300 items-center justify-center'>
                           Visit Github
                           <IoIosArrowForward size={18} />
