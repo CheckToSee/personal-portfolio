@@ -56,10 +56,12 @@ const Projects = () => {
                       <p className='text-white px-5 text-center py-2'>A responsive website with animations. Tools used: ReactJS, NextJS, TailwindCSS.</p>
                     </div>
                     <div className='flex items-center justify-center'>
-                      <button className='mb-6 py-2 px-5 bg-transparent hover:bg-[#9B37FF] font-extrabold rounded-lg border-2 border-[#9B37FF] flex flex-row duration-300 items-center justify-center'>
-                        Visit Github
-                        <IoIosArrowForward size={18} />
-                      </button>
+                      <a href='https://github.com/CheckToSee/metaversus'>
+                        <button className='mb-6 py-2 px-5 bg-transparent hover:bg-[#9B37FF] font-extrabold rounded-lg border-2 border-[#9B37FF] flex flex-row duration-300 items-center justify-center'>
+                          Visit Github
+                          <IoIosArrowForward size={18} />
+                        </button>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -75,10 +77,12 @@ const Projects = () => {
                       <p className='text-white px-5 text-center py-2'>Responsive clone. Tools used: ReactJS, TailwindCSS, NextJS, ToastAPI.</p>
                     </div>
                     <div className='flex items-center justify-center'>
-                      <button className='mb-6 py-2 px-5 bg-transparent hover:bg-[#9B37FF] font-extrabold rounded-lg border-2 border-[#9B37FF] flex flex-row duration-300 items-center justify-center'>
-                        Visit Github
-                        <IoIosArrowForward size={18} />
-                      </button>
+                      <a href='https://github.com/CheckToSee/wordle-clone'>
+                        <button className='mb-6 py-2 px-5 bg-transparent hover:bg-[#9B37FF] font-extrabold rounded-lg border-2 border-[#9B37FF] flex flex-row duration-300 items-center justify-center'>
+                          Visit Github
+                          <IoIosArrowForward size={18} />
+                        </button>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -94,10 +98,12 @@ const Projects = () => {
                       <p className='text-white px-5 text-center py-2'>Online healthcare website. Tools used: ReactJS, TailwindCSS, NextJS, Figma.</p>
                     </div>
                     <div className='flex items-center justify-center'>
-                      <button className='mb-6 py-2 px-5 bg-transparent hover:bg-[#9B37FF] font-extrabold rounded-lg border-2 border-[#9B37FF] flex flex-row duration-300 items-center justify-center'>
-                        Visit Github
-                        <IoIosArrowForward size={18} />
-                      </button>
+                      <a href='https://github.com/CheckToSee/Healthcare_Modern_App'>
+                        <button className='mb-6 py-2 px-5 bg-transparent hover:bg-[#9B37FF] font-extrabold rounded-lg border-2 border-[#9B37FF] flex flex-row duration-300 items-center justify-center'>
+                          Visit Github
+                          <IoIosArrowForward size={18} />
+                        </button>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -113,10 +119,12 @@ const Projects = () => {
                       <p className='text-white px-5 text-center py-2'>This website! Tools used: ReactJS, TailwindCSS</p>
                     </div>
                     <div className='flex items-center justify-center'>
-                      <button className='mb-6 py-2 px-5 bg-transparent hover:bg-[#9B37FF] font-extrabold rounded-lg border-2 border-[#9B37FF] flex flex-row duration-300 items-center justify-center'>
-                        Visit Github
-                        <IoIosArrowForward size={18} />
-                      </button>
+                      <a href='https://github.com/CheckToSee/personal-portfolio'>
+                        <button className='mb-6 py-2 px-5 bg-transparent hover:bg-[#9B37FF] font-extrabold rounded-lg border-2 border-[#9B37FF] flex flex-row duration-300 items-center justify-center'>
+                          Visit Github
+                          <IoIosArrowForward size={18} />
+                        </button>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -132,10 +140,12 @@ const Projects = () => {
                       <p className='text-lg text-white'>Python Scripting with BS4</p>
                     </div>
                     <div className='flex items-center justify-center'>
-                      <button className='mb-6 py-2 px-5 bg-transparent hover:bg-[#9B37FF] font-extrabold rounded-lg border-2 border-[#9B37FF] flex flex-row duration-300 items-center justify-center'>
-                        Visit Github
-                        <IoIosArrowForward size={18} />
-                      </button>
+                      <a href=''>
+                        <button className='mb-6 py-2 px-5 bg-transparent hover:bg-[#9B37FF] font-extrabold rounded-lg border-2 border-[#9B37FF] flex flex-row duration-300 items-center justify-center'>
+                          Visit Github
+                          <IoIosArrowForward size={18} />
+                        </button>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -151,10 +161,12 @@ const Projects = () => {
                       <p className='text-lg text-white'>Python Scripting with BS4</p>
                     </div>
                     <div className='flex items-center justify-center'>
-                      <button className='mb-6 py-2 px-5 bg-transparent hover:bg-[#9B37FF] font-extrabold rounded-lg border-2 border-[#9B37FF] flex flex-row duration-300 items-center justify-center'>
-                        Visit Github
-                        <IoIosArrowForward size={18} />
-                      </button>
+                      <a href=''>
+                        <button className='mb-6 py-2 px-5 bg-transparent hover:bg-[#9B37FF] font-extrabold rounded-lg border-2 border-[#9B37FF] flex flex-row duration-300 items-center justify-center'>
+                          Visit Github
+                          <IoIosArrowForward size={18} />
+                        </button>
+                      </a>
                     </div>
                   </div>
                 </div>
