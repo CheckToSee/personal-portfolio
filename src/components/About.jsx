@@ -69,9 +69,11 @@ const About = () => {
               Fun Facts: I live in the terminal, Vim is the only way
             </p>
             <div className="mt-4">
-              <button className="px-14 py-4 bg-[#9B37FF] rounded-lg text-lg font-bold hover:bg-[#7529c2]">
-                Contact
-              </button>
+              <a href='#contact'>
+                <button className="px-14 py-4 bg-[#9B37FF] rounded-lg text-lg font-bold hover:bg-[#7529c2]">
+                  Contact
+                </button>
+              </a>
             </div>
           </div>
           <div className="w-full h-full lg:ml-20 flex flex-col lg:mt-0 mt-6 lg:pl-20">

@@ -1,9 +1,25 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from '@emailjs/browser';
 import Abstract from "../assets/abstract.png";
 
-/*TODO: Add email server functionality*/
+
+/*PERF: Add email server functionality*/
 
 const Contact = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_l6c1rpo', 'template_gsy43pw', form.current, 'AHlQL5Kdi3xirCbrw')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
   return (
     <div id="contact" className="w-full min-h-screen lg:h-screen bg-gradient-to-r from-[#982E6F] to-[#43289F] flex lg:flex-row flex-col-reverse">
       <div className="w-full h-full flex items-center justify-center">
@@ -11,19 +27,23 @@ const Contact = () => {
       </div>
       <div className="w-full h-full flex flex-col justify-center lg:mx-0">
         <h1 className="sm:text-6xl text-5xl font-extrabold sm:mb-6 mb-10 lg:mx-0 mx-8 lg:mt-0 mt-8 text-center lg:text-start">Get In Touch</h1>
-        <form className="lg:ml-0 mx-16">
+        <form ref={form} onSubmit={sendEmail} className="lg:ml-0 mx-16">
           <input
             className="w-full rounded-3xl border border-gray-300 text-xl p-4 bg-[rgba(256,256,256,0.18)] text-white h-16 mb-4 placeholder-white"
             type="text"
-            placeholder="Full Name (Optional)"
+            name="user_name"
+            placeholder="Full Name"
+            required
           />
           <input
             className="w-full rounded-3xl border border-gray-300 text-xl p-4 bg-[rgba(256,256,256,0.18)] text-white h-16 mb-4 placeholder-white"
-            type="text"
+            type="email"
+            name="user_email"
             placeholder="johndoe@example.com"
             required
           />
           <textarea
+            name="message"
             className="w-full h-72 rounded-3xl border border-gray-300 text-xl p-4 bg-[rgba(256,256,256,0.18)] text-white col-span-full row-span-full placeholder-white"
             type="text"
             placeholder="Message"
