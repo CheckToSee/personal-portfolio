@@ -116,7 +116,7 @@ const Projects = () => {
                   <div className='bg-[#1f3d4738] w-full h-full absolute top-0 right-[-100%] group-hover:right-0 duration-300 backdrop-blur flex flex-col'>
                     <div className='w-full h-full flex justify-center items-center flex-col'>
                       <h3 className='text-2xl font-bold text-white'>My Personal Website</h3>
-                      <p className='text-white px-5 text-center py-2'>This website! Tools used: ReactJS, TailwindCSS</p>
+                      <p className='text-white px-5 text-center py-2'>This website! Tools used: ReactJS, TailwindCSS, ToastAPI</p>
                     </div>
                     <div className='flex items-center justify-center'>
                       <a href='https://github.com/CheckToSee/personal-portfolio'>
