@@ -22,7 +22,7 @@ const Hero = () => {
           <a href='https://github.com/CheckToSee'>
             <AiFillGithub className='rounded-lg my-3 cursor-pointer' size={35} />
           </a>
-          <a href='https://twitter.com/dime_dv'>
+          <a href='https://twitter.com/cdimedotdev'>
             <AiFillTwitterSquare className='rounded-lg my-3 cursor-pointer' size={35} />
           </a>
         </div>

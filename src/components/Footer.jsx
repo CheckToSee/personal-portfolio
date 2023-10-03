@@ -15,7 +15,7 @@ const Footer = () => {
           <a href='https://github.com/CheckToSee'>
             <AiFillGithub className='mx-4' size={35} />
           </a>
-          <a href='https://twitter.com/dime_dv'>
+          <a href='https://twitter.com/cdimedotdev'>
             <AiFillTwitterSquare className='mx-4 rounded-full' size={35} />
           </a>
         </div>

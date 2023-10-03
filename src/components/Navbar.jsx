@@ -79,7 +79,7 @@ const Navbar = () => {
             <a href='https://github.com/CheckToSee'>
               <AiFillGithub className='rounded-lg cursor-pointer m-4' size={30} />
             </a>
-            <a href='https://twitter.com/dime_dv'>
+            <a href='https://twitter.com/cdimedotdev'>
               <AiFillTwitterSquare className='rounded-lg cursor-pointer m-4' size={30} />
             </a>
           </div>
