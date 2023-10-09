@@ -55,7 +55,7 @@ const Navbar = () => {
           <AiOutlineClose size={1} className='mr-8 z-[-1] cursor-pointer' />
         )}
       </div>
-      <div className={menu ? "absolute w-72 top-0 right-0 bg-[#ededed] ease-in-out duration-500 rounded-xl h-screen flex flex-col justify-between" : "fixed top-0 right-[-100%] duration-500 h-screen"}>
+      <div className={menu ? "absolute w-72 top-0 right-0 bg-[#ededed] ease-in-out duration-500 rounded-xl h-[100svh] flex flex-col justify-between" : "fixed top-0 right-[-100%] duration-500 h-screen"}>
         <div>
           <div className='w-full flex justify-end items-center'>
             <AiOutlineClose onClick={handleMenu} className='text-black mt-8 mb-4 mr-8 cursor-pointer' size={30} />
