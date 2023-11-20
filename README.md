@@ -2,7 +2,7 @@
 A personal portfolio website showcasing my skills and talent, as well as giving info for anyone to learn more about me and my journey. 
 
 ## Description
-Website made using React + Tailwind. Implemented email server API connected to my personal email. Toast Notification API used for success/fail pop-up in contact page. Website deployed using Netlify. Visit the website now: https://www.cdime.dev
+Website made using React + Tailwind. Implemented email server API connected to my personal email. Toast Notification API used for success/fail pop-up in contact page. Website deployed using Netlify. Visit the live website now: https://www.cdime.dev
 
 ## Preview
 ![alt text](https://raw.githubusercontent.com/CheckToSee/personal-portfolio/main/src/assets/cdimehome.png)
