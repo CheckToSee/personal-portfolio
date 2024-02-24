@@ -1,27 +1,42 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import { AiFillHtml5 } from 'react-icons/ai';
 import { BiLogoCss3, BiLogoJavascript, BiLogoReact, BiLogoPython, BiLogoJava, BiLogoGit, BiLogoTailwindCss, BiSolidTerminal } from 'react-icons/bi';
 import { FaRust, FaBootstrap, FaFigma } from 'react-icons/fa';
 import Badge from '../assets/securitypluslogo.png';
+import { slideIn } from '../../utils/motion';
 
 const About = () => {
   return (
     <div id='about' className="w-full min-h-screen bg-[#1A191D] flex items-center justify-center">
       <div className="w-full max-w-[1400px] h-full mx-16 my-8 flex flex-col mt-16">
         <div className="flex flex-col justify-center mb-6 items-center">
-          <h1 className="w-full md:text-5xl text-3xl text-white text-center font-extrabold py-3">
+          <h1 
+            className="w-full md:text-5xl text-3xl text-white text-center font-extrabold py-3">
             About Me
           </h1>
           <div className="w-10 h-1 rounded-xl mb-4 mt-2 bg-[#9B37FF]"></div>
-          <h2 className="lg:text-2xl md:text-xl md:w-1/2 text-[#bababa] text-center">
+          <motion.h2 
+            variants={slideIn("spring", 0.2, 0.75)} 
+            initial="hidden"
+            whileInView="show"
+            className="lg:text-2xl md:text-xl md:w-1/2 text-[#bababa] text-center">
             In this section, you can find out more about me, my goals, and my
             current skills
-          </h2>
+          </motion.h2>
         </div>
         <div className="w-full h-full flex flex-col lg:flex-row">
           <div className="w-full h-full flex flex-col mr-4">
-            <h2 className="text-white md:text-3xl text-2xl font-bold py-3">Who am I?</h2>
-            <p className="md:text-lg pr-4 my-2 text-[#bababa]">
+            <motion.h2 
+              variants={slideIn("spring", 0.1, 1)} 
+              initial="hidden"
+              whileInView="show"
+              className="text-white md:text-3xl text-2xl font-bold py-3">Who am I?</motion.h2>
+            <motion.p 
+              variants={slideIn("spring", 0.1, 1)} 
+              initial="hidden"
+              whileInView="show"
+              className="md:text-lg pr-4 my-2 text-[#bababa]">
               I'm a
               <span className="font-semibold text-white">
                 {" "}
@@ -32,8 +47,12 @@ const About = () => {
               middle and high school through a STEM program and since then, I
               developed a passion for it. Motivated from my studies, I picked up
               frontend web development which I fell in love with immediately.
-            </p>
-            <p className="md:text-lg pr-4 my-2 text-[#bababa]">
+            </motion.p>
+            <motion.p 
+              variants={slideIn("spring", 0.1, 1)} 
+              initial="hidden"
+              whileInView="show"
+              className="md:text-lg pr-4 my-2 text-[#bababa]">
               I aim to add to my current back-end knowledge and incorporate it
               into my front-end skills in order to become a
               <span className="font-semibold text-white">
@@ -44,8 +63,12 @@ const About = () => {
               of my work in the
               <span className="font-semibold text-white"> Projects </span>
               section.
-            </p>
-            <p className="md:text-lg pr-4 my-2 text-[#bababa]">
+            </motion.p>
+            <motion.p 
+              variants={slideIn("spring", 0.1, 1)} 
+              initial="hidden"
+              whileInView="show"
+              className="md:text-lg pr-4 my-2 text-[#bababa]">
               In addition to the experience I have in Web Development, I also
               have experience in 
               <span className="font-semibold text-white">
@@ -64,10 +87,14 @@ const About = () => {
               </span>
               With my knowledge and experience in Cyber Security, I can bring an
               invaluable point of view to any team I join.
-            </p>
-            <p className="md:text-lg pr-4 mt-2 text-[#bababa]">
+            </motion.p>
+            <motion.p 
+              variants={slideIn("spring", 0.1, 1)} 
+              initial="hidden"
+              whileInView="show"
+              className="md:text-lg pr-4 mt-2 text-[#bababa]">
               Fun Facts: I live in the terminal, Vim is the only way
-            </p>
+            </motion.p>
             <div className="mt-4">
               <a href='#contact'>
                 <button className="px-14 py-4 bg-[#9B37FF] rounded-lg text-lg font-bold hover:bg-[#7529c2]">
