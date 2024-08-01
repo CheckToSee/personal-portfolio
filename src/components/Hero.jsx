@@ -11,12 +11,6 @@ import { CgScrollV } from "react-icons/cg";
 import "../App.css";
 import { slideIn } from "../../utils/motion";
 
-/*PERF:
- * Add animate-bounce for a scroll indicator (bottom middle)
- * Add animated spaceman as image on the right
- * Add side icons to the menu on md: screen
- * */
-
 const Hero = () => {
   return (
     <div

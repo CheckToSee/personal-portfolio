@@ -1,8 +1,9 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { AiFillHtml5 } from 'react-icons/ai';
-import { BiLogoCss3, BiLogoJavascript, BiLogoReact, BiLogoPython, BiLogoJava, BiLogoGit, BiLogoTailwindCss, BiSolidTerminal } from 'react-icons/bi';
+import { BiLogoCss3, BiLogoJavascript, BiLogoReact, BiLogoPython, BiLogoJava, BiLogoGit, BiLogoTailwindCss, BiSolidTerminal, BiLogoDocker } from 'react-icons/bi';
 import { FaRust, FaBootstrap, FaFigma } from 'react-icons/fa';
+import { SiDjango } from 'react-icons/si';
 import Badge from '../assets/securitypluslogo.png';
 import { slideIn } from '../../utils/motion';
 
@@ -151,13 +152,13 @@ const About = () => {
                   <FaBootstrap size={55} />
                   <h3 className="font-bold sm:text-base text-xs">Bootstrap</h3>
                 </div>
-                <div className="sm:w-24 sm:h-32 w-16 h-24 flex flex-col items-center justify-center rounded-xl bg-[#34343B] mr-4">
-                  <FaFigma size={50} />
-                  <h3 className="font-bold">Figma</h3>
+                <div className="sm:w-24 sm:h-32 w-16 h-24 flex flex-col items-center justify-center rounded-xl bg-[#084032] mr-4">
+                  <SiDjango size={50} />
+                  <h3 className="font-bold">Django</h3>
                 </div>
-                <div className="sm:w-24 sm:h-32 w-16 h-24 flex flex-col items-center justify-center rounded-xl bg-black">
-                  <BiSolidTerminal size={55} />
-                  <h3 className="font-bold text-white sm:text-sm text-xs">Terminal</h3>
+                <div className="sm:w-24 sm:h-32 w-16 h-24 flex flex-col items-center justify-center rounded-xl bg-[#1072D8]">
+                  <BiLogoDocker size={55} />
+                  <h3 className="font-bold text-white sm:text-sm text-xs">Docker</h3>
                 </div>
               </div>
             </div>
