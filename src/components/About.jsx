@@ -41,11 +41,11 @@ const About = () => {
               I'm a
               <span className="font-semibold text-white">
                 {" "}
-                Frontend Web Developer{" "}
+                Fullstack Web Developer{" "}
               </span>
               from the state of Maryland and I am thrilled to create stunning
               websites and webapps. I began learning programming as soon as
-              middle and high school through a STEM program and since then, I
+              middle and high school through a STEM focused program and since then, I
               developed a passion for it. Motivated from my studies, I picked up
               frontend web development which I fell in love with immediately.
             </motion.p>
@@ -54,8 +54,8 @@ const About = () => {
               initial="hidden"
               whileInView="show"
               className="md:text-lg pr-4 my-2 text-[#bababa]">
-              I aim to add to my current back-end knowledge and incorporate it
-              into my front-end skills in order to become a
+              I aim to gain more experience working in both Frontend and Backend 
+              in order to learn new concepts and technologies and become a more well-rounded
               <span className="font-semibold text-white">
                 {" "}
                 Fullstack Developer.{" "}
