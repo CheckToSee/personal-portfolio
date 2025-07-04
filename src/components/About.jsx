@@ -4,7 +4,8 @@ import { AiFillHtml5 } from 'react-icons/ai';
 import { BiLogoCss3, BiLogoJavascript, BiLogoReact, BiLogoPython, BiLogoJava, BiLogoGit, BiLogoTailwindCss, BiSolidTerminal, BiLogoDocker } from 'react-icons/bi';
 import { FaRust, FaBootstrap, FaFigma } from 'react-icons/fa';
 import { SiDjango } from 'react-icons/si';
-import Badge from '../assets/securitypluslogo.png';
+import Badge from '../assets/Security+-png.png';
+import Badge2 from '../assets/A+-png.png';
 import { slideIn } from '../../utils/motion';
 
 const About = () => {
@@ -81,10 +82,15 @@ const About = () => {
                 {" "}
                 CompTIA certified{" "}
               </span>
-              with the
+              with a
               <span className="font-semibold text-white">
                 {" "}
-                SY0-601 Security+ certification.{" "}
+                Security+ certification{" "}
+              </span>
+              and a 
+              <span className="font-semibold text-white">
+                {" "}
+                A+ certification.{" "}
               </span>
               With my knowledge and experience in Cyber Security, I can bring an
               invaluable point of view to any team I join.
@@ -162,8 +168,11 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <h2 className="text-white md:text-3xl text-2xl font-bold py-3 lg:mt-0 mt-6">Certification</h2>
-            <img src={Badge} className='sm:w-[114px] w-[90px]' />
+            <h2 className="text-white md:text-3xl text-2xl font-bold py-3 lg:mt-0 mt-6">Certifications</h2>
+            <div className='flex flex-row'>
+              <img src={Badge} className='sm:w-[114px] w-[90px]' />
+              <img src={Badge2} className='sm:w-[114px] w-[90px]' />
+            </div>
             <div id='projects' className='h-1'></div>
           </div>
         </div>
